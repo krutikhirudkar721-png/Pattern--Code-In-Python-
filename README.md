@@ -30,3 +30,11 @@ n = 5
 for i in range(1, n + 1):
     print(" " * (n - i) + "* " * i)
 
+# 4. FULL DIAMOND CODE
+
+n = 5
+for i in range(1, n * 2):
+    s = i if i <= n else (n * 2 - i)
+    print(" " * (n - s) + "* " * s)
+
+
