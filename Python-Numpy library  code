@@ -21,3 +21,83 @@
     import numpy as np
     array1=np.arange(1,8)
     print(array1)
+
+# 4.
+#RESHAPE USE
+    import numpy as np
+    array1=np.arange(11,20).reshape(3,3)
+    print(array1)
+
+# 5.
+#RESHAPE USE
+    import numpy as np
+    array1=np.arange(11,29).reshape(2,3,3)
+    print(array1)
+
+# 6.
+#RESHAPE USE
+    import numpy as np
+    array1=np.arange(11,27).reshape(4,4)
+    print(array1)
+
+# 7.
+#ZEROS CREATE MATRIX
+    import numpy as np
+    array1=np.zeros(4)
+    print(array1)
+
+# 8.
+    import numpy as np
+    array1=np.arange(1,8)
+    print(array1.size)
+
+# 9.
+    import numpy as np
+    array1 = np.array([10,20,30,40,50,60,70])
+    print(array1[1:3])
+    print(array1[1:6:2])
+    print(array1[-1:-3:-1])
+    print(array1[::2])
+
+# 10.
+    import numpy as np
+    array1 = np.array([[15,16,17],[25,26,27],[35,36,37],[45,46,47]])
+    print(array1[1, ])
+    print(array1[:,1])
+    print(array1[1:3,1:3])
+    print(array1[1:3, ])
+    print(array1[:,1:3])
+    print(array1[1:3,1])
+    print(array1[1:3,:1])
+    print(array1[0,1:3])
+    print(array1[:,1])
+    print(array1[0, ])
+    print(array1[2, ])
+    print(array1[3, ])
+
+# 11.
+    from ast import Yield
+    x=np.array(([1,2],[3,4]))
+    y=np.array([[11,12],[13,14]])
+    z=x @ y
+    print(z)
+    z=x + y
+    print(z)
+    z=x - y
+    print(z)
+    z=x / y
+    print(z)
+    z=x % y
+    print(z)
+
+# 12.
+
+    import numpy as np
+    lst = []
+    n=int(input("Enter the number of the elements: "))
+    for i in range(n):
+      element=int(input(f"Enter element {i+1}: "))
+      lst.append(element)
+    print("List:", lst)
+    arr=np.array(lst).reshape(3,3)
+    print("Array:", arr)
