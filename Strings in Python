@@ -1,0 +1,8 @@
+#1.
+
+s1="SBJIN"
+for i in range(len(s1)):
+  print(i,end="")
+print()
+for i in range(len(s1)):
+  print(s1[i],end="")
