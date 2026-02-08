@@ -6,3 +6,14 @@ for i in range(len(s1)):
 print()
 for i in range(len(s1)):
   print(s1[i],end="")
+
+#2.
+
+s1="SBJAIN"
+for i in range(len(s1)):
+  print(i,end="")
+print()
+for i in range(len(s1)-1,-1,-1):
+  print(s1[i],end="")
+
+#3.
