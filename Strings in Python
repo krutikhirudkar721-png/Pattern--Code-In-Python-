@@ -17,3 +17,66 @@ for i in range(len(s1)-1,-1,-1):
   print(s1[i],end="")
 
 #3.
+s1="SBJAIN"
+for i in range(len(s1)):
+  print(i,end="")
+print()
+for i in range(len(s1)-1,-1,-1):
+  print(s1[i],end="")
+for i in range(len(s1),2):
+  print(s1[i],end="")
+
+#4.
+s1="sbjin "
+s2=" collage"
+print(s1 + s2)
+print(s1*4)
+print(s2*4)
+print((s1+s2)*4)
+
+#5.
+#sliceing
+s1="Python Programing Language"
+print(s1[:])#full string
+print(s1[:5])#0,1,2,3,4 Pytho
+print(s1[5:10])#5,6,7,8,9 n Pro
+print(s1[::-1])#reverse string print
+print(s1[5:])#5 position se ene tak
+print(s1[:0:-1])#reverse string upto 1 pos
+print(s1[100:999])#null output
+print(s1[-1:-8:-1])#-1 -2 -3 -4 -5 -6 -7 egaugna
+print(s1[7:17])
+print(s1[18:26])
+print(s1[-21::-1])
+
+#6
+s1="SBJAIN collage 54678"
+print(s1.isupper())
+print(s1.islower())
+count_alpha=0
+count_digit=0
+count_space=0
+for i in s1:
+  if i.isalpha():
+    count_alpha=count_alpha+1
+  if i.isdigit():
+    count_digit=count_digit+1
+  if i.isspace():
+    count_space=count_space+1
+print(count_alpha)
+print(count_digit)
+print(count_space)
+
+#7.
+
+#index and find
+s="welcome to python programming"
+print(s.find("p"))#find first index  position of p ie: 11
+print(s.index("p"))#also same
+print(s.find("p",12))#find p from 12 index to end
+print(s.index("p",12))#same like find
+print(s.find("p",1,13))#find p from 1 to 12 index
+print(s.index("p",1,13))#same like find
+
+#8.
+
