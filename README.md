@@ -1,4 +1,4 @@
-# Pattern--Code-In-Python-
+# PYTHON CODES
 # Right-Angled Triangle Pattern(Right Half Pyramid)
 # 1. using two for loop
     for i in range(1,6):
