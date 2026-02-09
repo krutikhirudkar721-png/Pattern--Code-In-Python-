@@ -116,4 +116,4 @@ print(s.rstrip())#its remove but nor see
 s="sbjain     "
 print(len(s))#its count all
 print(len(s.rstrip()))#after remove ight space
-#strip remove both side space
+
