@@ -117,3 +117,15 @@ s="sbjain     "
 print(len(s))#its count all
 print(len(s.rstrip()))#after remove ight space
 
+#11.
+#access and print character from string
+str="Krutik"
+for i in str:
+  print(i,end="")
+
+#12.
+#python program to print a string,extract characters from the string
+str="SB JAIN COLLAGE"
+print(str[::-1])
+print(str[0:])
+print(str[5:15])
