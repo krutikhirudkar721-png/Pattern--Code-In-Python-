@@ -79,4 +79,41 @@ print(s.find("p",1,13))#find p from 1 to 12 index
 print(s.index("p",1,13))#same like find
 
 #8.
+#find vowels from string
+s1 = "Krutik"
+vowels = "aeiouAEIOU"
+vowel_count = 0
+for char in s1:
+  if char in vowels:
+    vowel_count += 1
+print(f"Number of vowels in '{s1}' is: {vowel_count}")
 
+#9.
+#split,partition
+s="welcome to all python programming "
+print(s.split()) #by default split from space and return answer in list
+print(s.split("p"))#jaha jaha p waha , ayega
+#partition
+#print(s.partition())#here must give value for partion nahi tao error
+print(s.partition("p"))
+#p ke pahele ek part,then  p,then baki part give answer in tupple
+#output=>('welcome to all ', 'p', 'ython programming ')
+#jony jony wal aexample
+
+#10.
+#strip,rstrip,ltsrip
+
+s=" sbjain"
+print(s)# its print as it is
+print(s.lstrip())#remove left space
+
+#rstrip
+s="sbjain     "
+print(s)
+print(s.rstrip())#its remove but nor see
+
+#to see rstrip
+s="sbjain     "
+print(len(s))#its count all
+print(len(s.rstrip()))#after remove ight space
+#strip remove both side space
