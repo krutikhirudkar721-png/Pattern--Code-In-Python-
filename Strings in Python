@@ -129,3 +129,11 @@ str="SB JAIN COLLAGE"
 print(str[::-1])
 print(str[0:])
 print(str[5:15])
+
+#13.
+#Program to print words with their length of a string.
+str="SB JAIN COLLAGE"
+print(str)
+print(len(str))
+
+#14.
