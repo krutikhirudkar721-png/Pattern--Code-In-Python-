@@ -15,15 +15,18 @@
     n = 5
     for i in range(1, n + 1):
       print(" " * (n - i) + "*" * i)
+
     
 # 2.
     for i in range(1, 6):
         print(" " * (5 - i) + "*" * i)
 
+
 # HALF DIAMOND CODE
     n = 5
     for i in range(1, n + 1):
         print(" " * (n - i) + "* " * i)
+
 
 # FULL DIAMOND CODE
     n = 5
