@@ -1,1 +1,28 @@
+#check equality
+    d1={1:99,2:67,3:55}
+    d2={1:99,2:67,3:55}
+    print(d1==d2)
 
+#create empty dictionary and add item
+    d1=dict()
+    d1[1]="one"
+    d1[2]="two"
+    d1[3]="three"
+    d1[4]="four"
+    print(d1)
+
+#dictionary traversal
+    d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
+    for i in d:
+        print(i,end=" ")#keys print
+    print()
+    for i in d:
+        print(d[i],end=" ")#value of key print
+    print()
+    for i in d.values():
+        print(i,end=" ")
+    print()
+    for i in d:
+        print("key=>",i,"value=>",d[i])#value of key print
+    for i in d.items():
+        print(i)
