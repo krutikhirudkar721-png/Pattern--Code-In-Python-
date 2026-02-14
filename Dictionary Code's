@@ -35,3 +35,15 @@
     print(d2)
 
 
+#pop()
+    d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
+    d.pop(1)#by default last key pair deleted
+    print(d)
+#print(d.pop()) #no argument genertae error
+
+#sorted
+    d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
+    print(sorted(d.items()))#all keys sorted and store in list
+    d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
+    print(sorted(d,reverse=True))
+
