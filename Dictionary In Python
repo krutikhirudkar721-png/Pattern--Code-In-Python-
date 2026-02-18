@@ -1,20 +1,22 @@
 #create dictionary
-    dic={ }  #empty dictionary
-    print(dic)
-    print(type(dic))
-    d=dict()
-    print(d)
-		print(type(d))
-		d={1:"x",2:"y",3:"z"}
-		print(d)
-		print(d.keys())
-		print(d.values())
-		print(d.items())
+
+    	dic={ }  #empty dictionary
+  		print(dic)
+    	print(type(dic))
+    	d=dict()
+   	 print(d)
+			print(type(d))
+			d={1:"x",2:"y",3:"z"}
+			print(d)
+			print(d.keys())
+			print(d.values())
+			print(d.items())
 
 
 #four ways to create dictionary
-		d1= {"a":"apple","b":"orange","c":"mango"}
-		d2=dict(a="apple",b="orange",c="mango")
-		d3=dict([("a","apple"),("b","orange"),("c","mango")])
-		d4=dict({"a":"apple","b":"orange","c":"mango"})
-		print(d1==d2==d3==d4)
+
+			d1= {"a":"apple","b":"orange","c":"mango"}
+			d2=dict(a="apple",b="orange",c="mango")
+			d3=dict([("a","apple"),("b","orange"),("c","mango")])
+			d4=dict({"a":"apple","b":"orange","c":"mango"})
+			print(d1==d2==d3==d4)
