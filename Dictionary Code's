@@ -1,9 +1,11 @@
 #check equality
+
     d1={1:99,2:67,3:55}
     d2={1:99,2:67,3:55}
     print(d1==d2)
 
 #create empty dictionary and add item
+
     d1=dict()
     d1[1]="one"
     d1[2]="two"
@@ -12,6 +14,7 @@
     print(d1)
 
 #dictionary traversal
+
     d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
     for i in d:
         print(i,end=" ")#keys print
@@ -28,6 +31,7 @@
         print(i)
 
 #update
+
     d1={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
     d2={5:"five"}
     d1.update(d2)
@@ -36,12 +40,14 @@
 
 
 #pop()
-    d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
+
+d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
     d.pop(1)#by default last key pair deleted
     print(d)
 #print(d.pop()) #no argument genertae error
 
 #sorted
+
     d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
     print(sorted(d.items()))#all keys sorted and store in list
     d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
