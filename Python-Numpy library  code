@@ -57,6 +57,7 @@
     array1=np.zeros(4)
     print(array1)
 
+
 # 8.
 
 
