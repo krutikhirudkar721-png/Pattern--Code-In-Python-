@@ -17,6 +17,7 @@ for i in range(len(s1)-1,-1,-1):
   print(s1[i],end="")
 
 #3.
+
 s1="SBJAIN"
 for i in range(len(s1)):
   print(i,end="")
@@ -27,6 +28,7 @@ for i in range(len(s1),2):
   print(s1[i],end="")
 
 #4.
+
 s1="sbjin "
 s2=" collage"
 print(s1 + s2)
@@ -35,6 +37,7 @@ print(s2*4)
 print((s1+s2)*4)
 
 #5.
+
 #sliceing
 s1="Python Programing Language"
 print(s1[:])#full string
@@ -50,6 +53,7 @@ print(s1[18:26])
 print(s1[-21::-1])
 
 #6
+
 s1="SBJAIN collage 54678"
 print(s1.isupper())
 print(s1.islower())
