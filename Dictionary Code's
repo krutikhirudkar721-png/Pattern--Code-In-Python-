@@ -14,7 +14,6 @@
     print(d1)
 
 #dictionary traversal
-
     d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
     for i in d:
         print(i,end=" ")#keys print
