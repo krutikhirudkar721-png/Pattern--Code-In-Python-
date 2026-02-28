@@ -5,7 +5,6 @@
     print(d1==d2)
 
 #create empty dictionary and add item
-
     d1=dict()
     d1[1]="one"
     d1[2]="two"
@@ -14,7 +13,6 @@
     print(d1)
 
 #dictionary traversal
-
     d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
     for i in d:
         print(i,end=" ")#keys print
@@ -45,7 +43,6 @@ d={1: 'one', 2: 'two', 3: 'three', 4: 'four'}
 #print(d.pop()) #no argument genertae error
 
 #sorted
-
     d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
     print(sorted(d.items()))#all keys sorted and store in list
     d={ 2: 'two',1: 'one',4: 'four',3: 'three'}
